@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionNormalCell" customModule="DYZB" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="271" height="174"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="271" height="174"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_live_cate_normal" translatesAutoresizingMaskIntoConstraints="NO" id="De7-6L-XPC">
+                        <rect key="frame" x="0.0" y="150" width="14" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="7AA-79-U5a"/>
+                            <constraint firstAttribute="width" constant="14" id="Ifa-Jr-MwG"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="刘德华演唱会" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trZ-RY-sLy">
+                        <rect key="frame" x="19" y="150" width="247" height="14"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Img_default" translatesAutoresizingMaskIntoConstraints="NO" id="JP8-EM-mjP">
+                        <rect key="frame" x="0.0" y="0.0" width="271" height="142"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Love Andy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zz5-TN-MqH">
+                        <rect key="frame" x="5" y="123" width="61" height="14"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jo-xE-Zka">
+                        <rect key="frame" x="206" y="121" width="60" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <state key="normal" title="666在线" image="Image_online"/>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="trZ-RY-sLy" secondAttribute="trailing" constant="5" id="2Mu-KL-ZIu"/>
+                <constraint firstItem="De7-6L-XPC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="FRw-IY-eHq"/>
+                <constraint firstAttribute="bottom" secondItem="JP8-EM-mjP" secondAttribute="bottom" constant="32" id="KvE-h6-qih"/>
+                <constraint firstItem="JP8-EM-mjP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="NbP-di-KhX"/>
+                <constraint firstItem="3jo-xE-Zka" firstAttribute="trailing" secondItem="JP8-EM-mjP" secondAttribute="trailing" constant="-5" id="Ut9-OJ-woh"/>
+                <constraint firstItem="JP8-EM-mjP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ftU-Dy-ezr"/>
+                <constraint firstItem="3jo-xE-Zka" firstAttribute="bottom" secondItem="JP8-EM-mjP" secondAttribute="bottom" constant="-5" id="iJH-V8-7eF"/>
+                <constraint firstAttribute="bottom" secondItem="De7-6L-XPC" secondAttribute="bottom" constant="10" id="kH0-0f-JhM"/>
+                <constraint firstItem="zz5-TN-MqH" firstAttribute="leading" secondItem="JP8-EM-mjP" secondAttribute="leading" constant="5" id="r7r-Ys-Z2e"/>
+                <constraint firstAttribute="trailing" secondItem="JP8-EM-mjP" secondAttribute="trailing" id="ukj-f3-3tp"/>
+                <constraint firstItem="trZ-RY-sLy" firstAttribute="leading" secondItem="De7-6L-XPC" secondAttribute="trailing" constant="5" id="woo-4v-90l"/>
+                <constraint firstItem="zz5-TN-MqH" firstAttribute="bottom" secondItem="JP8-EM-mjP" secondAttribute="bottom" constant="-5" id="wtC-a9-z7Q"/>
+                <constraint firstItem="De7-6L-XPC" firstAttribute="centerY" secondItem="trZ-RY-sLy" secondAttribute="centerY" id="ykT-Jk-4uf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="271" height="174"/>
+            <point key="canvasLocation" x="71.739130434782609" y="102.45535714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Image_online" width="16" height="16"/>
+        <image name="Img_default" width="172.5" height="103.5"/>
+        <image name="home_live_cate_normal" width="14" height="14"/>
+    </resources>
+</document>
