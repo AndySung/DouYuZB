@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RecommendCycleView" customModule="DYZB" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="9MQ-pz-2G1">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.4766427654" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="GpX-nA-xHt">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="3yw-0P-2Hd"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="Qcx-Sa-a2c"/>
+                    </connections>
+                </collectionView>
+                <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="rUF-f7-66Y">
+                    <rect key="frame" x="308" y="117" width="39" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <color key="currentPageIndicatorTintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </pageControl>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9MQ-pz-2G1" secondAttribute="trailing" id="4nj-dq-bhw"/>
+                <constraint firstItem="9MQ-pz-2G1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7jt-Sw-rab"/>
+                <constraint firstItem="9MQ-pz-2G1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="N4j-j2-dQU"/>
+                <constraint firstAttribute="bottom" secondItem="9MQ-pz-2G1" secondAttribute="bottom" id="rXV-pE-WP2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="CycleCollectionView" destination="9MQ-pz-2G1" id="uCv-5F-9Qe"/>
+                <outlet property="CyclePageControl" destination="rUF-f7-66Y" id="TWi-kj-JRS"/>
+            </connections>
+            <point key="canvasLocation" x="171.73913043478262" y="60.9375"/>
+        </view>
+    </objects>
+</document>

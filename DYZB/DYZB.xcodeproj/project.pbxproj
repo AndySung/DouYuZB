@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46A3DFCF0F69B77F68C58DCD /* Pods_DYZB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B377946A51412DECD8A8202 /* Pods_DYZB.framework */; };
 		A11F61D12498C6CA00BBFD5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F61D02498C6CA00BBFD5A /* AppDelegate.swift */; };
 		A11F61D52498C6CA00BBFD5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F61D42498C6CA00BBFD5A /* ViewController.swift */; };
 		A11F61D82498C6CA00BBFD5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11F61D62498C6CA00BBFD5A /* Main.storyboard */; };
@@ -28,9 +29,30 @@
 		A11F621A249B608100BBFD5A /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A11F6218249B608100BBFD5A /* CollectionHeaderView.xib */; };
 		A11F621D249B65AB00BBFD5A /* CollectionNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F621B249B65AB00BBFD5A /* CollectionNormalCell.swift */; };
 		A11F621E249B65AB00BBFD5A /* CollectionNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A11F621C249B65AB00BBFD5A /* CollectionNormalCell.xib */; };
+		A11F6221249B6EE200BBFD5A /* CollectionPrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F621F249B6EE200BBFD5A /* CollectionPrettyCell.swift */; };
+		A11F6222249B6EE200BBFD5A /* CollectionPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A11F6220249B6EE200BBFD5A /* CollectionPrettyCell.xib */; };
+		A11F6224249C525900BBFD5A /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F6223249C525900BBFD5A /* NetworkTools.swift */; };
+		A11F6227249C823100BBFD5A /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F6226249C823100BBFD5A /* RecommendViewModel.swift */; };
+		A11F6229249C8EA500BBFD5A /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F6228249C8EA500BBFD5A /* NSDate-Extension.swift */; };
+		A11F622B249C91CE00BBFD5A /* AnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F622A249C91CE00BBFD5A /* AnchorGroup.swift */; };
+		A11F622D249C981400BBFD5A /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F622C249C981400BBFD5A /* AnchorModel.swift */; };
+		A1331E4A249F376D0074591A /* BaseGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1331E49249F376D0074591A /* BaseGameModel.swift */; };
+		A1331E4D249F3A0A0074591A /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1331E4C249F3A0A0074591A /* BaseViewModel.swift */; };
+		A1331E4F249F3AF60074591A /* CycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1331E4E249F3AF60074591A /* CycleModel.swift */; };
+		A1331E51249F3D020074591A /* CollectionBaseCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1331E50249F3D020074591A /* CollectionBaseCellCollectionViewCell.swift */; };
+		A1331E53249F444C0074591A /* RecommendCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1331E52249F444C0074591A /* RecommendCycleView.swift */; };
+		A1331E55249F44970074591A /* RecommendCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1331E54249F44970074591A /* RecommendCycleView.xib */; };
+		A1331E58249F5D4B0074591A /* CollectionCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1331E56249F5D4B0074591A /* CollectionCycleCell.swift */; };
+		A1331E59249F5D4B0074591A /* CollectionCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1331E57249F5D4B0074591A /* CollectionCycleCell.xib */; };
+		A1331E5B24A08E7F0074591A /* RecommendGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1331E5A24A08E7F0074591A /* RecommendGameView.swift */; };
+		A1331E5D24A08E930074591A /* RecommendGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1331E5C24A08E930074591A /* RecommendGameView.xib */; };
+		A1331E6024A099970074591A /* CollectionGameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1331E5E24A099960074591A /* CollectionGameCell.swift */; };
+		A1331E6124A099970074591A /* CollectionGameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1331E5F24A099970074591A /* CollectionGameCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88897FEFDA2A1AFF5048D77F /* Pods-DYZB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYZB.debug.xcconfig"; path = "Target Support Files/Pods-DYZB/Pods-DYZB.debug.xcconfig"; sourceTree = "<group>"; };
+		8B377946A51412DECD8A8202 /* Pods_DYZB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYZB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11F61CD2498C6CA00BBFD5A /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11F61D02498C6CA00BBFD5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A11F61D42498C6CA00BBFD5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +76,26 @@
 		A11F6218249B608100BBFD5A /* CollectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
 		A11F621B249B65AB00BBFD5A /* CollectionNormalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionNormalCell.swift; sourceTree = "<group>"; };
 		A11F621C249B65AB00BBFD5A /* CollectionNormalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionNormalCell.xib; sourceTree = "<group>"; };
+		A11F621F249B6EE200BBFD5A /* CollectionPrettyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPrettyCell.swift; sourceTree = "<group>"; };
+		A11F6220249B6EE200BBFD5A /* CollectionPrettyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionPrettyCell.xib; sourceTree = "<group>"; };
+		A11F6223249C525900BBFD5A /* NetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		A11F6226249C823100BBFD5A /* RecommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
+		A11F6228249C8EA500BBFD5A /* NSDate-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
+		A11F622A249C91CE00BBFD5A /* AnchorGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorGroup.swift; sourceTree = "<group>"; };
+		A11F622C249C981400BBFD5A /* AnchorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
+		A1331E49249F376D0074591A /* BaseGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseGameModel.swift; sourceTree = "<group>"; };
+		A1331E4C249F3A0A0074591A /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		A1331E4E249F3AF60074591A /* CycleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleModel.swift; sourceTree = "<group>"; };
+		A1331E50249F3D020074591A /* CollectionBaseCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionBaseCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		A1331E52249F444C0074591A /* RecommendCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCycleView.swift; sourceTree = "<group>"; };
+		A1331E54249F44970074591A /* RecommendCycleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendCycleView.xib; sourceTree = "<group>"; };
+		A1331E56249F5D4B0074591A /* CollectionCycleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCycleCell.swift; sourceTree = "<group>"; };
+		A1331E57249F5D4B0074591A /* CollectionCycleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCycleCell.xib; sourceTree = "<group>"; };
+		A1331E5A24A08E7F0074591A /* RecommendGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendGameView.swift; sourceTree = "<group>"; };
+		A1331E5C24A08E930074591A /* RecommendGameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendGameView.xib; sourceTree = "<group>"; };
+		A1331E5E24A099960074591A /* CollectionGameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionGameCell.swift; sourceTree = "<group>"; };
+		A1331E5F24A099970074591A /* CollectionGameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionGameCell.xib; sourceTree = "<group>"; };
+		EA96B2FC71B6315BB99236DB /* Pods-DYZB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYZB.release.xcconfig"; path = "Target Support Files/Pods-DYZB/Pods-DYZB.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,17 +103,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46A3DFCF0F69B77F68C58DCD /* Pods_DYZB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41B0C17849521CA8AB4DCEA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88897FEFDA2A1AFF5048D77F /* Pods-DYZB.debug.xcconfig */,
+				EA96B2FC71B6315BB99236DB /* Pods-DYZB.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		960F448E330E41CECB6D9ADD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B377946A51412DECD8A8202 /* Pods_DYZB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A11F61C42498C6CA00BBFD5A = {
 			isa = PBXGroup;
 			children = (
 				A11F61CF2498C6CA00BBFD5A /* DYZB */,
 				A11F61CE2498C6CA00BBFD5A /* Products */,
+				41B0C17849521CA8AB4DCEA3 /* Pods */,
+				960F448E330E41CECB6D9ADD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,9 +174,10 @@
 		A11F61E52499C66000BBFD5A /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				A11F61FE2499E52E00BBFD5A /* Controller */,
+				A11F6225249C819400BBFD5A /* ViewModel */,
 				A11F61FD2499E52E00BBFD5A /* Model */,
 				A11F61FF2499E52E00BBFD5A /* View */,
+				A11F61FE2499E52E00BBFD5A /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -124,6 +187,7 @@
 			children = (
 				A11F620A2499EC1000BBFD5A /* Extension */,
 				A11F620F2499F74E00BBFD5A /* Common.swift */,
+				A11F6223249C525900BBFD5A /* NetworkTools.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -155,6 +219,7 @@
 		A11F61EA2499C66000BBFD5A /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				A1331E4B249F39FF0074591A /* ViewModel */,
 				A11F62002499E56300BBFD5A /* Controller */,
 				A11F62062499E56300BBFD5A /* Model */,
 				A11F62052499E56300BBFD5A /* View */,
@@ -166,6 +231,7 @@
 		A11F61FD2499E52E00BBFD5A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A1331E4E249F3AF60074591A /* CycleModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,6 +251,14 @@
 			children = (
 				A11F6217249B608100BBFD5A /* CollectionHeaderView.swift */,
 				A11F6218249B608100BBFD5A /* CollectionHeaderView.xib */,
+				A1331E52249F444C0074591A /* RecommendCycleView.swift */,
+				A1331E54249F44970074591A /* RecommendCycleView.xib */,
+				A1331E56249F5D4B0074591A /* CollectionCycleCell.swift */,
+				A1331E57249F5D4B0074591A /* CollectionCycleCell.xib */,
+				A1331E5A24A08E7F0074591A /* RecommendGameView.swift */,
+				A1331E5C24A08E930074591A /* RecommendGameView.xib */,
+				A1331E5E24A099960074591A /* CollectionGameCell.swift */,
+				A1331E5F24A099970074591A /* CollectionGameCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,6 +278,9 @@
 				A11F621B249B65AB00BBFD5A /* CollectionNormalCell.swift */,
 				A11F621C249B65AB00BBFD5A /* CollectionNormalCell.xib */,
 				A11F620D2499F55900BBFD5A /* PageTitleView.swift */,
+				A11F621F249B6EE200BBFD5A /* CollectionPrettyCell.swift */,
+				A11F6220249B6EE200BBFD5A /* CollectionPrettyCell.xib */,
+				A1331E50249F3D020074591A /* CollectionBaseCellCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -211,6 +288,9 @@
 		A11F62062499E56300BBFD5A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A11F622A249C91CE00BBFD5A /* AnchorGroup.swift */,
+				A11F622C249C981400BBFD5A /* AnchorModel.swift */,
+				A1331E49249F376D0074591A /* BaseGameModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -220,8 +300,25 @@
 			children = (
 				A11F620B2499EC4900BBFD5A /* UIBarButtonItem-Extension.swift */,
 				A11F6213249A0BEC00BBFD5A /* UIColor-Extension.swift */,
+				A11F6228249C8EA500BBFD5A /* NSDate-Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		A11F6225249C819400BBFD5A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A11F6226249C823100BBFD5A /* RecommendViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A1331E4B249F39FF0074591A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A1331E4C249F3A0A0074591A /* BaseViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +328,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A11F61E12498C6CC00BBFD5A /* Build configuration list for PBXNativeTarget "DYZB" */;
 			buildPhases = (
+				EFE6BF4C5F4D49088FEED9ED /* [CP] Check Pods Manifest.lock */,
 				A11F61C92498C6CA00BBFD5A /* Sources */,
 				A11F61CA2498C6CA00BBFD5A /* Frameworks */,
 				A11F61CB2498C6CA00BBFD5A /* Resources */,
+				C50183E948F89F6631A13B11 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,29 +388,90 @@
 				A11F61D82498C6CA00BBFD5A /* Main.storyboard in Resources */,
 				A11F61F52499DF0C00BBFD5A /* Live.storyboard in Resources */,
 				A11F61F22499DEDF00BBFD5A /* Home.storyboard in Resources */,
+				A1331E6124A099970074591A /* CollectionGameCell.xib in Resources */,
+				A1331E55249F44970074591A /* RecommendCycleView.xib in Resources */,
+				A1331E59249F5D4B0074591A /* CollectionCycleCell.xib in Resources */,
+				A11F6222249B6EE200BBFD5A /* CollectionPrettyCell.xib in Resources */,
 				A11F61FA2499DF4600BBFD5A /* Profile.storyboard in Resources */,
+				A1331E5D24A08E930074591A /* RecommendGameView.xib in Resources */,
 				A11F61F82499DF3200BBFD5A /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C50183E948F89F6631A13B11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DYZB/Pods-DYZB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DYZB/Pods-DYZB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DYZB/Pods-DYZB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE6BF4C5F4D49088FEED9ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DYZB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A11F61C92498C6CA00BBFD5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11F6224249C525900BBFD5A /* NetworkTools.swift in Sources */,
+				A1331E4D249F3A0A0074591A /* BaseViewModel.swift in Sources */,
 				A11F6216249B374700BBFD5A /* ReconmmendViewController.swift in Sources */,
+				A1331E6024A099970074591A /* CollectionGameCell.swift in Sources */,
 				A11F6219249B608100BBFD5A /* CollectionHeaderView.swift in Sources */,
 				A11F620E2499F55900BBFD5A /* PageTitleView.swift in Sources */,
 				A11F620C2499EC4900BBFD5A /* UIBarButtonItem-Extension.swift in Sources */,
+				A1331E4F249F3AF60074591A /* CycleModel.swift in Sources */,
 				A11F61D52498C6CA00BBFD5A /* ViewController.swift in Sources */,
+				A1331E58249F5D4B0074591A /* CollectionCycleCell.swift in Sources */,
 				A11F6212249A099400BBFD5A /* PageContentView.swift in Sources */,
 				A11F6214249A0BEC00BBFD5A /* UIColor-Extension.swift in Sources */,
+				A1331E5B24A08E7F0074591A /* RecommendGameView.swift in Sources */,
 				A11F61D12498C6CA00BBFD5A /* AppDelegate.swift in Sources */,
+				A11F622B249C91CE00BBFD5A /* AnchorGroup.swift in Sources */,
+				A1331E53249F444C0074591A /* RecommendCycleView.swift in Sources */,
 				A11F61FC2499E03B00BBFD5A /* MainViewController.swift in Sources */,
+				A11F6229249C8EA500BBFD5A /* NSDate-Extension.swift in Sources */,
 				A11F62092499E5BC00BBFD5A /* HomeViewController.swift in Sources */,
+				A11F6221249B6EE200BBFD5A /* CollectionPrettyCell.swift in Sources */,
 				A11F621D249B65AB00BBFD5A /* CollectionNormalCell.swift in Sources */,
+				A1331E4A249F376D0074591A /* BaseGameModel.swift in Sources */,
+				A11F6227249C823100BBFD5A /* RecommendViewModel.swift in Sources */,
+				A1331E51249F3D020074591A /* CollectionBaseCellCollectionViewCell.swift in Sources */,
+				A11F622D249C981400BBFD5A /* AnchorModel.swift in Sources */,
 				A11F62102499F74E00BBFD5A /* Common.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +638,7 @@
 		};
 		A11F61E22498C6CC00BBFD5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88897FEFDA2A1AFF5048D77F /* Pods-DYZB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -496,6 +657,7 @@
 		};
 		A11F61E32498C6CC00BBFD5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA96B2FC71B6315BB99236DB /* Pods-DYZB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
